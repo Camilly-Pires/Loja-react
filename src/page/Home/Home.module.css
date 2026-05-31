@@ -1,0 +1,76 @@
+.homeContent {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  gap: 100px;                 
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  padding: 40px 60px;
+  box-sizing: border-box;
+}
+
+
+.carouselWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  max-width: 600px;    /* limita a largura máxima do carrossel da descrição */
+}
+
+.infoWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  text-align: left;
+  color: #fff;
+  max-width: 440px;
+}
+
+.infoWrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #00f7ff;
+  text-shadow: 0 0 12px rgba(0, 247, 255, 0.7);
+}
+
+.descricao {
+  font-size: 20px;
+  color: #bbb;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #00f7ff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: auto;
+}
+
+.btn:hover {
+  background: #00c8d1;
+}
+
+@media (max-width: 720px) {
+  .homeContent {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .carouselWrapper {
+    max-width: 100%;
+  }
+
+  .infoWrapper {
+    align-items: center;
+    text-align: center;
+  }
+}

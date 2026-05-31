@@ -1,0 +1,119 @@
+.produtosWrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 120px 30px 30px;
+}
+
+.categoriaSection {
+  margin-bottom: 60px;
+  width: 100%;
+}
+
+.categoriaTitulo {
+  font-size: 26px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: #e7f8f9;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.produtosContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  width: 100%;
+}
+
+/* ======== CARD DO PRODUTO ======== */
+.card {
+  background: #1d1d43;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 250px;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 255, 255, 0.5);
+}
+
+/* imagem */
+.imagemProduto {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* nome */
+.nome {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* descrição */
+.descricao {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 10px;
+  min-height: 40px;
+  flex-grow: 1;
+}
+
+/* preço */
+.preco {
+  font-size: 20px;
+  color: #00f7ff;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.botao {
+  background: #00f7ff;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: auto;
+}
+
+.botao:hover {
+  background: #00c8d1;
+}
+
+@media (max-width: 1200px) {
+  .produtosContainer {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .produtosContainer {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .produtosContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .categoriaTitulo {
+    text-align: center;
+  }
+}

@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1d1d43;
+  height: 80px;
+  padding: 40px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  position: relative;
+  margin-top: auto;
+}
+
+.footer h2 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+}

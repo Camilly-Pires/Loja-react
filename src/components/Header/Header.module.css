@@ -1,0 +1,203 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1d1d43;
+  height: 90px;
+  padding: 0 30px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logoWrapper img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logoText {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 5px hsl(180, 20%, 90%), 0 0 20px #e3f2f3;
+  letter-spacing: 1px;
+}
+
+.searchContainer {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #fff;
+  color: #000;
+  transition: box-shadow 0.3s ease;
+}
+
+.input:focus {
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+.searchButton {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.searchButton:hover {
+  color: #00f7ff;
+}
+
+.menuContainer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.menu li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0;
+  height: 3px;
+  background-color: #00f7ff;
+  transition: width 0.3s ease;
+}
+
+.menu li a:hover::after {
+  width: 100%;
+}
+
+.active {
+  color: #00f7ff !important;
+}
+
+.active::after {
+  width: 100%;
+  box-shadow: 0 0 10px #00f7ff;
+}
+
+.carrinhoBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carrinhoBtn svg {
+  width: 35px;   /* aumentei tamanho */
+  height: 35px;
+  color: #fff;  
+  margin-bottom: 10px;
+  transition: transform 0.2s ease;
+}
+
+.carrinhoBtn:hover svg {
+  transform: scale(1.2);
+}
+
+.contador {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  color: #040404;
+  font-weight: bold;
+  background-color: #f6f6fb;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+}
+
+/* ==== RESPONSIVIDADE ==== */
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    height: auto;
+  }
+
+  .logoWrapper {
+    margin-bottom: 10px;
+  }
+
+  .searchContainer {
+    flex: none;
+    width: 100%;
+    max-width: none;
+    margin: 10px 0;
+  }
+
+  .menu {
+    gap: 15px;
+  }
+
+  .logoText {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .logoWrapper img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .logoText {
+    font-size: 1.1rem;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}

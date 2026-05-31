@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+html, body, #root {
+  min-height: 100%;
+  height: 100%;
+}
+
+.App {
+  min-height: 100vh;         
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+  margin-top: auto;           
+  flex-shrink: 0;
+  background: #191946;   
+  padding: 12px 20px;
+  text-align: center;
+}
