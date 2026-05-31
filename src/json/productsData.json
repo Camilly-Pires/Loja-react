@@ -4,7 +4,7 @@
     "nome": "Samsung Galaxy S25",
     "descricao": "Ultra 5g, 256gb, 12gb, Câm. Quád. - Titânio Azul",
     "preco": 7006.1,
-    "imagem": "/imageProd/celular1.png",
+    "imagem": "/Loja-react/imageProd/celular1.png",
     "categoria": "Celulares"
   },
   {
@@ -12,7 +12,7 @@
     "nome": "Realme Note 50 RMX3834",
     "descricao": "64 GB, 3 GB RAM, Dual SIM Tela 6.74- Azul",
     "preco": 999.0,
-    "imagem": "/imageProd/celular2.png",
+    "imagem": "/Loja-react/imageProd/celular2.png",
     "categoria": "Celulares"
   },
   {
@@ -20,7 +20,7 @@
     "nome": "Galaxy A16 5G, 128GB + 4GB RAM",
     "descricao": " Tela Super AMOLED de 6.7 e 90Hz, NFC, 128GB, 4GB",
     "preco": 995.0,
-    "imagem": "/imageProd/celular3.png",
+    "imagem": "/Loja-react/imageProd/celular3.png",
     "categoria": "Celulares"
   },
   {
@@ -28,7 +28,7 @@
     "nome": "Apple iPhone 16 Pro Max (256 GB)",
     "descricao": "Estrutura leve e robusta em titânio, uma tela Super Retina",
     "preco": 8549.1,
-    "imagem": "/imageProd/celular4.png",
+    "imagem": "/Loja-react/imageProd/celular4.png",
     "categoria": "Celulares"
   },
   {
@@ -36,7 +36,7 @@
     "nome": "Apple iPhone 12 Roxo 128GB",
     "descricao": "É um aparelho que está em condições excepcionais",
     "preco": 2199.0,
-    "imagem": "/imageProd/celular5.png",
+    "imagem": "/Loja-react/imageProd/celular5.png",
     "categoria": "Celulares"
   },
   {
@@ -44,7 +44,7 @@
     "nome": "Smartphone Motorola Edge 50 5G 512GB",
     "descricao": "(12GB RAM + 12GB RAM Boost) 50MP",
     "preco": 1799.1,
-    "imagem": "/imageProd/celular6.png",
+    "imagem": "/Loja-react/imageProd/celular6.png",
     "categoria": "Celulares"
   },
   {
@@ -52,7 +52,7 @@
     "nome": "Smartphone Xiaomi 14 Dual SIM de 512GB",
     "descricao": "12GB RAM de 6.36 50 + 50 + 50MP / 32MP - Branco",
     "preco": 5999.0,
-    "imagem": "/imageProd/celular7.png",
+    "imagem": "/Loja-react/imageProd/celular7.png",
     "categoria": "Celulares"
   },
   {
@@ -60,7 +60,7 @@
     "nome": "Smartphone Motorola Razr 50 Ultra 5G",
     "descricao": "Tela dobrável 6,9 pOLED e externa 4",
     "preco": 8999.1,
-    "imagem": "/imageProd/celular8.png",
+    "imagem": "/Loja-react/imageProd/celular8.png",
     "categoria": "Celulares"
   },
   {
@@ -68,7 +68,7 @@
     "nome": "Fone de Ouvido Gamer Headset RGB ",
     "descricao": "Com Microfone - Usb Led - 9H",
     "preco": 169.9,
-    "imagem": "/imageProd/fone1.png",
+    "imagem": "/Loja-react/imageProd/fone1.png",
     "categoria": "Fones"
   },
   {
@@ -76,7 +76,7 @@
     "nome": "JBL, Fone de Ouvido Bluetooth",
     "descricao": "Sem Fio, Com Cancelamento de Ruído - Azul",
     "preco": 210.3,
-    "imagem": "/imageProd/fone2.png",
+    "imagem": "/Loja-react/imageProd/fone2.png",
     "categoria": "Fones"
   },
 
@@ -85,7 +85,7 @@
     "nome": "Fone De Ouvido Qcy T1c Bluetooth 5.1",
     "descricao": "Case 380mah Cor Preto",
     "preco": 129.0,
-    "imagem": "/imageProd/fone3.png",
+    "imagem": "/Loja-react/imageProd/fone3.png",
     "categoria": "Fones"
   },
 
@@ -94,7 +94,7 @@
     "nome": "Fone De Ouvido Headset Gamer",
     "descricao": "Luz Led Compatível com Computador e Video Games",
     "preco": 65.4,
-    "imagem": "/imageProd/fone4.png",
+    "imagem": "/Loja-react/imageProd/fone4.png",
     "categoria": "Fones"
   },
 
@@ -103,7 +103,7 @@
     "nome": "Fone Bluetooth sem Fio Over-ear Headset",
     "descricao": "Headphone Bluetooth Redução De Ruído",
     "preco": 164.2,
-    "imagem": "/imageProd/fone5.png",
+    "imagem": "/Loja-react/imageProd/fone5.png",
     "categoria": "Fones"
   },
 
@@ -112,7 +112,7 @@
     "nome": " Fone Bluetooth Lenovo",
     "descricao": "Fone De Ouvido In-ear Sem Fio Lenovo Livepods Lp40 Preto Cor Preto",
     "preco": 99.9,
-    "imagem": "/imageProd/fone6.png",
+    "imagem": "/Loja-react/imageProd/fone6.png",
     "categoria": "Fones"
   },
 
@@ -121,7 +121,7 @@
     "nome": "Fone Gatinho Bluetooth",
     "descricao": "Over Cat Ear Preto Com Led Preto",
     "preco": 35.9,
-    "imagem": "/imageProd/fone7.png",
+    "imagem": "/Loja-react/imageProd/fone7.png",
     "categoria": "Fones"
   },
 
@@ -130,7 +130,7 @@
     "nome": "JBL, Fone de Ouvido Over-Ear",
     "descricao": "Une 720BT, Bluetooth, Cabo Removível - Branco",
     "preco": 309.0,
-    "imagem": "/imageProd/fone8.png",
+    "imagem": "/Loja-react/imageProd/fone8.png",
     "categoria": "Fones"
   },
 
@@ -139,7 +139,7 @@
     "nome": "Notebook Lenovo Intel Celeron Dual Core 4GB",
     "descricao": "Conta com sistema operacional Windows 11",
     "preco": 2789.0,
-    "imagem": "/imageProd/not1.png",
+    "imagem": "/Loja-react/imageProd/not1.png",
     "categoria": "Notebooks"
   },
 
@@ -148,7 +148,7 @@
     "nome": "Notebook Gamer NAVE Super Nova i9",
     "descricao": "RTX 4060 - Tela 15 - QHD - 100% 16GB DDR5 - 512GB SSD",
     "preco": 9019.2,
-    "imagem": "/imageProd/not2.png",
+    "imagem": "/Loja-react/imageProd/not2.png",
     "categoria": "Notebooks"
   },
 
@@ -157,7 +157,7 @@
     "nome": "Notebook 14 PenseBem CEL Intel Celeron",
     "descricao": "RAM 4GB Windws 11 128GB SSD",
     "preco": 1835.0,
-    "imagem": "/imageProd/not3.png",
+    "imagem": "/Loja-react/imageProd/not3.png",
     "categoria": "Notebooks"
   },
 
@@ -166,7 +166,7 @@
     "nome": "Notebook Samsung Galaxy Book4 360, WINDOWS 11",
     "descricao": " Intel Core I7, 16GB, 1TB SSD, 15.6 FULL HD, AmoLED, 1.46 Kg Grafite",
     "preco": 8999.0,
-    "imagem": "/imageProd/not4.png",
+    "imagem": "/Loja-react/imageProd/not4.png",
     "categoria": "Notebooks"
   },
 
@@ -175,7 +175,7 @@
     "nome": "Notebook Positivo Vision C4128A-14",
     "descricao": "Intel Core I7, 16GB, 1TB SSD, 15.6 FULL HD, AmoLED, 1.46 Kg Grafite",
     "preco": 1599.0,
-    "imagem": "/imageProd/not5.png",
+    "imagem": "/Loja-react/imageProd/not5.png",
     "categoria": "Notebooks"
   },
 
@@ -184,7 +184,7 @@
     "nome": "Notebook vaio FH15 Intel Core i7",
     "descricao": "Shell Efi GeForce rtx 3050 64GB ram 1TB ssd 15.6 FullHD - Cinza Escuro",
     "preco": 9159.0,
-    "imagem": "/imageProd/not6.png",
+    "imagem": "/Loja-react/imageProd/not6.png",
     "categoria": "Notebooks"
   },
 
@@ -193,7 +193,7 @@
     "nome": "MacBook Pro A1278",
     "descricao": "Intel I5 2.3Ghz, Mem 16GB, 480GB SSD, Tela 13″ – 2012",
     "preco": 3950.0,
-    "imagem": "/imageProd/not7.png",
+    "imagem": "/Loja-react/imageProd/not7.png",
     "categoria": "Notebooks"
   },
   {
@@ -201,7 +201,7 @@
     "nome": "Notebook Samsung Expert X30 Intel I5",
     "descricao": "8Gb 1Tb 15,6 Branco Homologação",
     "preco": 3599.0,
-    "imagem": "/imageProd/not8.png",
+    "imagem": "/Loja-react/imageProd/not8.png",
     "categoria": "Notebooks"
   },
 
@@ -210,7 +210,7 @@
     "nome": "Gabinete Gamer",
     "descricao": "Hayom Mid Tower ATX RGB GB1710",
     "preco": 289,
-    "imagem": "/imageProd/gabinete-game.png",
+    "imagem": "/Loja-react/imageProd/gabinete-game.png",
     "categoria": "Outros produtos"
   },
 
@@ -219,7 +219,7 @@
     "nome": "Kit Teclado e Mouse",
     "descricao": "Logitech Sem Fio Desktop MK220 920-004431",
     "preco": 145.5,
-    "imagem": "/imageProd/kit-teclado.png",
+    "imagem": "/Loja-react/imageProd/kit-teclado.png",
     "categoria": "Outros produtos"
   },
 
@@ -228,7 +228,7 @@
     "nome": "Monitor Samsung Odyssey Crg9",
     "descricao": "Dqhd, 120hz, 4ms Lc49rg90 Cor Dark Blue Gray",
     "preco": 1927.9,
-    "imagem": "/imageProd/monitor-led.png",
+    "imagem": "/Loja-react/imageProd/monitor-led.png",
     "categoria": "Outros produtos"
   },
 
@@ -237,7 +237,7 @@
     "nome": "Tablet Vaio TL10 4G ",
     "descricao": "Tela 10.4, Android 13 128GB 8GB com Teclado Cam 8MP Octa-Core Preto",
     "preco": 1910.9,
-    "imagem": "/imageProd/tablet-vaio.png",
+    "imagem": "/Loja-react/imageProd/tablet-vaio.png",
     "categoria": "Outros produtos"
   },
 
@@ -246,7 +246,7 @@
     "nome": "Fonte Rhadium",
     "descricao": "ATX 600W 80 Plus Bronze RDG-600",
     "preco": 327.5,
-    "imagem": "/imageProd/rhadium-atx.png",
+    "imagem": "/Loja-react/imageProd/rhadium-atx.png",
     "categoria": "Outros produtos"
   },
   {
@@ -254,7 +254,7 @@
     "nome": "SSD Interno Hiksemi ",
     "descricao": "2.5 256GB Sata III Wave S 5300MB",
     "preco": 154.6,
-    "imagem": "/imageProd/ssd-Hiksemi.png",
+    "imagem": "/Loja-react/imageProd/ssd-Hiksemi.png",
     "categoria": "Outros produtos"
   },
   {
@@ -262,7 +262,7 @@
     "nome": "SSD Interno Kingston 2.5",
     "descricao": "Sata 480GB A400",
     "preco": 363.9,
-    "imagem": "/imageProd/sata-kington.png",
+    "imagem": "/Loja-react/imageProd/sata-kington.png",
     "categoria": "Outros produtos"
   },
   {
@@ -270,7 +270,7 @@
     "nome": "SSD Interno Hiksemi M.2",
     "descricao": "512GB NVMe 2280 Wave Pro 3520MB",
     "preco": 318.4,
-    "imagem": "/imageProd/ssd_interno.png",
+    "imagem": "/Loja-react/imageProd/ssd_interno.png",
     "categoria": "Outros produtos"
   }
 ]
