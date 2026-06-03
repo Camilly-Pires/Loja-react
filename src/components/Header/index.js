@@ -6,7 +6,7 @@ function Header({ carrinho, toggleCarrinho }) {
     <nav className={styles.nav}>
       {/* Logo + Texto */}
       <div className={styles.logoWrapper}>
-        <img src="/image/Eletronics.jpg" alt="Logo da Loja" />
+        <img src="/Loja-react/image/Eletronics.jpg" alt="Logo da Loja" />
         <span className={styles.logoText}>Electronics</span>
       </div>
 
