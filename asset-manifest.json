@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Loja-react/static/css/main.a490c780.css",
-    "main.js": "/Loja-react/static/js/main.c4b55760.js",
+    "main.js": "/Loja-react/static/js/main.0eb8d8c2.js",
     "static/media/erro404.png": "/Loja-react/static/media/erro404.886ee9cfd2bd54018be6.png",
     "index.html": "/Loja-react/index.html",
     "main.a490c780.css.map": "/Loja-react/static/css/main.a490c780.css.map",
-    "main.c4b55760.js.map": "/Loja-react/static/js/main.c4b55760.js.map"
+    "main.0eb8d8c2.js.map": "/Loja-react/static/js/main.0eb8d8c2.js.map"
   },
   "entrypoints": [
     "static/css/main.a490c780.css",
-    "static/js/main.c4b55760.js"
+    "static/js/main.0eb8d8c2.js"
   ]
 }
